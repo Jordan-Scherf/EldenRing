@@ -11,8 +11,10 @@ function CustomCardContainer() {
         <CustomCard
           key={card.id}
           imageUrl={card.imageUrl}
+          modalImageUrl={card.imageUrl}
           title={card.title}
           description={card.description}
+          modalDescription={card.modalDescription}
         />
         </div>
       ))}
